@@ -4,7 +4,7 @@ replicas: 2
 service_type: ClusterIP
 config_map_values:
   SPRING_PROFILES_ACTIVE: "production"
-  SPRING_DATASOURCE_URL: "jdbc:postgresql://wmp-dev.c4j048gm8kgc.us-east-1.rds.amazonaws.com:5432/wmp?currentSchema=portfolio_schema"
+  SPRING_DATASOURCE_URL: "jdbc:postgresql://wmp-dev.cq9e8uo2sqc1.us-east-1.rds.amazonaws.com:5432/wmp?currentSchema=portfolio_schema"
   SPRING_DATASOURCE_USERNAME: "portfolio_svc_user"
   SPRING_DATASOURCE_PASSWORD: "localdev123"
   JWT_SECRET: "myDefaultSuperSecretKeyThatIsAtLeast256BitsLongForHS256Algorithm"

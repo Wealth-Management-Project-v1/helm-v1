@@ -3,7 +3,7 @@ appPort: 8081
 replicas: 2
 service_type: ClusterIP
 config_map_values:
-  DB_HOST: "wmp-dev.c4j048gm8kgc.us-east-1.rds.amazonaws.com"
+  DB_HOST: "wmp-dev.cq9e8uo2sqc1.us-east-1.rds.amazonaws.com"
   DB_PORT: "5432"
   DB_USER: "auth_svc_user"
   DB_PASSWORD: "localdev123"

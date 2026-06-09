@@ -3,7 +3,7 @@ appPort: 8000
 replicas: 2
 service_type: ClusterIP
 config_map_values:
-  DATABASE_URL: "postgresql+asyncpg://analytics_svc_user:localdev123@wmp-dev.c4j048gm8kgc.us-east-1.rds.amazonaws.com:5432/wmp"
+  DATABASE_URL: "postgresql+asyncpg://analytics_svc_user:localdev123@wmp-dev.cq9e8uo2sqc1.us-east-1.rds.amazonaws.com:5432/wmp"
   DB_SCHEMA: "analytics_schema"
   LOG_LEVEL: "INFO"
   ENVIRONMENT: "production"
