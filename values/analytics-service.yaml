@@ -7,3 +7,4 @@ config_map_values:
   DB_SCHEMA: "analytics_schema"
   LOG_LEVEL: "INFO"
   ENVIRONMENT: "production"
+
